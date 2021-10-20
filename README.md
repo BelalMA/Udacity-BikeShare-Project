@@ -70,3 +70,16 @@ time - One of the libraries used for this.
 # Author:
 
 Belal Mohammed Ali
+
+
+NANO Degree Program from FWD Initiative:
+
+# Info 
+
+--Date created: 10/10/2021
+
+--Date last modified: 3/19/2020
+
+--IDE used is 'PyCharm'
+
+--snake_case Mostly
