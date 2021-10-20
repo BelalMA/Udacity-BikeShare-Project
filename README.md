@@ -57,7 +57,9 @@ new_york_city.csv - Dataset containing all bikeshare information for the city of
 
 washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
 
-Built with:
+#Built with
+
+IDE : PyCharm
 
 Python 3.9 - The language used to develop this.
 
@@ -67,6 +69,7 @@ numpy - One of the libraries used for this.
 
 time - One of the libraries used for this.
 
+
 # Author:
 
 Belal Mohammed Ali
@@ -74,12 +77,10 @@ Belal Mohammed Ali
 
 NANO Degree Program from FWD Initiative:
 
-# Info 
+# Date of Project Submission
 
 --Date created: 10/10/2021
 
 --Date last modified: 3/19/2020
 
---IDE used is 'PyCharm'
 
---snake_case Mostly
