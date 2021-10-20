@@ -1,4 +1,4 @@
-# Udacity-BikeShare-Project
+# Udacity-BikeShare-Project:
 
 Python Project on Pro Data Analysis Track
 
@@ -57,7 +57,7 @@ new_york_city.csv - Dataset containing all bikeshare information for the city of
 
 washington.csv - Dataset containing all bikeshare information for the city of Washington provided by Udacity. Note: This does not include the 'Gender' or 'Birth Year' data.
 
-# Built with
+# Built with:
 
 IDE : PyCharm
 
@@ -77,10 +77,10 @@ Belal Mohammed Ali
 
 NANO Degree Program from FWD Initiative:
 
-# Date of Project Submission
+# Date of Project Submission:
 
 --Date created: 10/10/2021
 
---Date last modified: 3/19/2020
+--Date last modified: 3/19/2021
 
 
