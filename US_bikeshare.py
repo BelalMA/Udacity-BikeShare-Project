@@ -1,13 +1,3 @@
-'''
---Udacity BikeShare Project:
---NANO Degree Program from FWD Initiative:
---Author: Belal Mohammed
---Date created: 10/10/2021
---Date last modified: 3/19/2020
---Python Version: 3.9
---IDE used is 'PyCharm'
---snake_case Mostly
-'''
 import time
 import pandas as pd
 import numpy as np
