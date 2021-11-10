@@ -25,16 +25,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    '''
-    10/18/2021
-    (Reviwer Comments and tips on this Section)#1
-    All code cells can be run without error.
-    Tips: Implement safeguards against invalid user inputs that can potentially break the codes. 
-    Please refer to the “Solicit and handle raw user input” rubric item for further details.
     
-    10/19/2021
-    Used while loops to fix this problem on every input on the user 
-    '''
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input('Would you like to see data for chicago, new york city , or washington? \n> ')
@@ -53,12 +44,6 @@ def get_filters():
         else:
             print("invalid input. Please enter a valid input")
 
-        '''
-        File "Project\bikeshare-2\bikeshare_2.py", line 71, 
-        in load_data months = ['january', 'february', 'march', 'april', 'may', 'june']
-        ValueError: 'January' is not in list
-        _/ all the same Uppercase or lowercase _/
-        '''
         # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input('All right! Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?'
@@ -68,23 +53,8 @@ def get_filters():
             break
         else:
             print("invalid input. Please enter a valid input")
-    '''
-    10/18/2021
-    (Reviwer Comments and tips on this Section)#2
-    All code cells can be run without error.
-    Raw input is solicited and handled correctly to guide the interactive question-answering experience;
-    no errors are thrown when unexpected input is entered.
-    User inputs should be made case insensitive, which means the input should accept the string of "Chicago"
-    and its case variants, such as "chicago", "CHICAGO", or "cHicAgo".
-    You should also implement error handlings so your program does not throw any errors due to invalid inputs.
-    For example, if the user enters "Los Angeles" for the city, 
-    the error handling should reject the user input and avoid breaking the codes.
-    Please note that the interactive input should be case insensitive,
-    the function should recognize ‘chicago’ but also ‘ChicAgo’.
-    you can do that using the .lower() method https://www.tutorialspoint.com/python/string_lower.htm
-    10/18/2021
-    Used the Method .lower() on every input variable to handle Case insetivity
-    '''
+
+  
     print('-' * 40)
     return city, month, day
 
@@ -232,18 +202,6 @@ def user_stats(df):
 def raw_data(df):
     print('\nCalculating Raw Data Stats...\n')
     start_time = time.time()
-
-    '''
-        (Reviwer Comments and tips on this Section)#3
-        Descriptive statistics are correctly computed and used to answer the questions posed about the data.
-        Raw data is displayed upon request by the user in the following manner:
-
-        Your script should prompt the user if they want to see 5 lines of raw data,
-        Display that data if the answer is 'yes',
-        Continue iterating these prompts and displaying the next 5 lines of raw data at each iteration,
-        Stop the program when the user says 'no' or there is no more raw data to display.
-        Tips: you can implement the while loop and track the row index in order to display the continuous raw data.
-    '''
     x = 0
     while True:
         raw = input('Do you like to see example from the raw Data, if you want type \'yes\' if else type \'no\' \n>')
